@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Career Growth Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Career Growth Hub</h1>
+    <nav>
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+        <ul id="nav-links">
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#hackathons">Hackathons</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+  </header>
+
+  <section id="courses">
+    <h2>Online Courses</h2>
+    <h3>Explore a variety of free and paid courses designed to help you develop new skills and advance your career.</h3>
+    <div class="course-list">
+        <div class="course-card">
+            <h3>Web Development Basics</h3>
+            <p>Learn HTML, CSS, and JavaScript to build your first website.</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+        <div class="course-card">
+            <h3>Python for Beginners</h3>
+            <p>Start programming with Python and build small projects.</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+        <div class="course-card">
+            <h3>Data Structures & Algorithms</h3>
+            <p>Master essential computer science concepts to ace interviews.</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </div>
+  </section>
+
+  <section id="internships">
+    <h2>Internship Opportunities</h2>
+    <h3>Find internships that match your career goals, from tech startups to multinational companies.</h3>
+    <div class="internship-list">
+        <div class="internship-card">
+            <h3>CodTech IT Solutions</h3>
+            <p>Role: Frontend Developer Intern</p>
+            <p>Duration: 3 months</p>
+            <button class="apply-btn">Apply Now</button>
+        </div>
+        <div class="internship-card">
+            <h3>DataSolve Analytics</h3>
+            <p>Role: Data Science Intern</p>
+            <p>Duration: 6 months</p>
+            <button class="apply-btn">Apply Now</button>
+        </div>
+        <div class="internship-card">
+            <h3>WebWorks Studio</h3>
+            <p>Role: Full-Stack Developer Intern</p>
+            <p>Duration: 4 months</p>
+            <button class="apply-btn">Apply Now</button>
+        </div>
+    </div>
+  </section>
+
+  <section id="hackathons">
+    <h2>Hackathon News</h2>
+    <h3>Stay updated with the latest hackathons and coding competitions to showcase your skills and network with professionals.</h3>
+    <div class="hackathon-list">
+        <div class="hackathon-card">
+            <h3>Google Girl Hackathon 2025</h3>
+            <p>Date: June 15, 2025</p>
+            <button class="details-btn">View Details</button>
+        </div>
+        <div class="hackathon-card">
+            <h3>Smart India Hackathon</h3>
+            <p>Date: July 10, 2025</p>
+            <button class="details-btn">View Details</button>
+        </div>
+        <div class="hackathon-card">
+            <h3>GENAI College Hackathon</h3>
+            <p>Date: August 5, 2025</p>
+            <button class="details-btn">View Details</button>
+        </div>
+    </div>
+  </section>
+
+  <section id="career">
+    <h2>Career Resources</h2>
+    <h3>Unlock your potential with expert guides, interview tips, resume building, and more. Explore curated resources to boost your career growth and land your dream job.</h3>
+    <div class="career-resources">
+        <div class="resource-card">
+            <h3>Resume Templates</h3>
+            <p>Download modern, ATS-friendly resume templates.</p>
+            <a href="#" class="resource-link">Explore</a>
+        </div>
+        <div class="resource-card">
+            <h3>Interview Preparation</h3>
+            <p>Practice common coding and behavioral interview questions.</p>
+            <a href="#" class="resource-link">Start Practicing</a>
+        </div>
+        <div class="resource-card">
+            <h3>Portfolio Guide</h3>
+            <p>Learn how to build a stunning developer portfolio.</p>
+            <a href="#" class="resource-link">Read More</a>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <h3>Have questions or want to collaborate? Reach out to us!</h3>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+
+  <section id="subscribe">
+    <h2>Subscribe for Updates</h2>
+    <form id="subscribe-form">
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+        />
+        <button type="submit">Subscribe</button>
+    </form>
+    <p id="subscribe-message"></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Career Growth Hub. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
